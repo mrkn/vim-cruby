@@ -5,6 +5,7 @@
 This is an example configuration:
 
 ```
+NeoBundle 'mrkn/vim-cruby'
 augroup cruby
   autocmd!
   autocmd BufWinEnter,BufNewFile ~/rubies/trunk/**/*.[chy] setlocal filetype=cruby
