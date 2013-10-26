@@ -27,8 +27,9 @@ syn keyword crubyType RBasic RObject RClass RFloat RString RArray RRegexp RHash 
 syn keyword crubyType st_table st_data st_data_t st_index_t st_hash_type
 syn match   crubyType display "\<\(RUBY_\)\?T_\(NONE\|OBJECT\|CLASS\|MODULE\|FLOAT\|STRING\|REGEXP\|ARRAY\|HASH\|STRUCT\|BIGNUM\|FILE\|DATA\|MATCH\|COMPLEX\|RATIONAL\|NIL\|TRUE\|FALSE\|SYMBOL\|FIXNUM\|UNDEF\|NODE\|ICLASS\|ZOMBIE\|MASK\)\>"
 
-syn keyword crubyStatement ANYARGS NORETURN PRINTF_ARGS
+syn keyword crubyStatement ANYARGS NORETURN PRINTF_ARGS UNREACHABLE
 syn keyword crubyStorageClass RUBY_EXTERN
+
 syn keyword crubyOperator IMMEDIATE_P SPECIAL_CONST_P BUILTIN_TYPE SYMBOL_P FIXNUM_P NIL_P RTEST CLASS_OF METACLASS_OF
 syn match   crubyOperator "\<\(INT\|LONG\)2\(FIX\|NUM\)\>"
 syn keyword crubyOperator UINT2NUM ULONG2NUM LL2NUM ULL2NUM OFFT2NUM SIZET2NUM SSIZET2NUM MODET2NUM DBL2NUM
