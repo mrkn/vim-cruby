@@ -10,10 +10,10 @@ runtime! syntax/c.vim
 unlet b:current_syntax
 
 if has("folding") && exists("cruby_fold")
-  setlocal foldmethod=syntax
+  set foldmethod=syntax
 endif
 
-setlocal tabstop=8 softtabstop=4 shiftwidth=4 noexpandtab
+set tabstop=8 softtabstop=4 shiftwidth=4 noexpandtab
 
 syn keyword crubyType VALUE ID RUBY_DATA_FUNC NODE BDIGIT BDIGIT_DBL BDIGIT_DBL_SIGNED
 syn keyword crubyType LONG_LONG SIGNED_VALUE
