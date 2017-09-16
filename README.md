@@ -15,10 +15,10 @@ augroup END
 ## Screenshot
 
 On `ft=c`:<br />
-![](https://dl.dropbox.com/u/266876/skitch/1._object.c____work_ruby_2.0.0.git__-_VIM__Vim_before.png)
+![](https://embed.gyazo.com/65ebdf3412c5d62446def2f8990c6c54.png)
 
 On `ft=cruby`:<br />
-![](https://dl.dropbox.com/u/266876/skitch/1._object.c____work_ruby_2.0.0.git__-_VIM__Vim_after.png)
+![](https://embed.gyazo.com/c776aeb36e5a9889aba7330d6c996d23.png)
 
 ## Copyright
 
