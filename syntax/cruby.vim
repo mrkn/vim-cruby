@@ -13,7 +13,7 @@ if has("folding") && exists("cruby_fold")
   set foldmethod=syntax
 endif
 
-set tabstop=8 softtabstop=4 shiftwidth=4 noexpandtab
+set tabstop=8 softtabstop=4 shiftwidth=4 expandtab
 
 syn keyword crubyType VALUE ID RUBY_DATA_FUNC NODE BDIGIT BDIGIT_DBL BDIGIT_DBL_SIGNED
 syn keyword crubyType LONG_LONG SIGNED_VALUE
