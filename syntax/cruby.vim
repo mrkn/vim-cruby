@@ -62,7 +62,7 @@ syn match   crubyOperator "\<RMODULE_\(IV_TBL\|CONST_TBL\|M_TBL\|SUPER\)\>"
 syn match   crubyOperator "\<RUBY_\(BIT_ROT[RL]\|METHOD_FUNC\)\>"
 syn match   crubyOperator "\<RFLOAT_VALUE\>"
 syn match   crubyOperator "\<RSTRING_\(\(EMBED_\)\?LEN\|PTR\|END\|LENINT\|GETMEM\)\>"
-syn match   crubyOperator "\<RARRAY_\(LEN\|PTR\|LENINT\)\>"
+syn match   crubyOperator "\<RARRAY_\(AREF\|LEN\|\(CONST_\)\?PTR\|LENINT\)\>"
 syn match   crubyOperator "\<RREGEXP_SRC\(_\(PTR\|LEN\|END\)\)\?\>"
 syn match   crubyOperator "\<RHASH_\(TBL\|ITER_LEV\|IFNONE\|SIZE\|EMPTY_P\)\>"
 syn match   crubyOperator "\<RSTRUCT_\(LEN\|PTR\|LENINT\)\>"
@@ -73,6 +73,8 @@ syn keyword crubyOperator Data_Wrap_Struct Data_Make_Struct Data_Get_Struct
 syn keyword crubyOperator TypedData_Wrap_Struct TypedData_Make_Struct TypedData_Get_Struct
 syn keyword crubyOperator CONST_ID_CACHE
 syn keyword crubyOperator ISPRINT ISASCII ISSPACE ISUPPER ISLOWER ISALNUM ISALPHA ISDIGIT ISXDIGIT TOUPPER TOLOWER
+syn keyword crubyOperator MEMO_NEW
+syn keyword crubyOperator RETURN_SIZED_ENUMERATOR RB_BLOCK_CALL_FUNC_ARGLIST
 syn keyword crubyOperator STRCASECMP STRNCASECMP STRTOUL
 
 syn match   crubyConstant "\<SIZEOF_\(INT\|LONG\|LONG_LONG\|OFF_T\|SIZE_T\|PTRDIFF_T\|TIME_T\|VOIDP\|VALUE\)\>"
